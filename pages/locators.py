@@ -9,4 +9,4 @@ class LoginPageLocators():
     PASSWORD2 = (By.CSS_SELECTOR, 'input[name="registration-password2"]')
     BUTTON_REGISTER = (By.CSS_SELECTOR, 'button[name="registration_submit"]')
     FORM_LOGIN = (By.CSS_SELECTOR, 'form#login_form')
-    FORM_REGISTER = (By.CSS_SELECTOR, 'form#regster_form')
+    FORM_REGISTER = (By.CSS_SELECTOR, 'form#register_form')
