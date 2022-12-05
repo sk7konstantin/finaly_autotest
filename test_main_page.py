@@ -8,7 +8,8 @@ from .pages.login_page import LoginPage
 def test_guest_can_go_to_login_page(browser):
     link = "http://selenium1py.pythonanywhere.com/"
     # link_login = 'http://selenium1py.pythonanywhere.com/ru/accounts/login/'
-    page = MainPage(browser, link)
+    
+    page = MainPage(browser, product_link)
     page.open()
 
     time.sleep(2)
